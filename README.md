@@ -6,4 +6,4 @@
 
 ## How to use
 - PowerShell.exe -ExecutionPolicy Bypass -File .\dad_joke_gui.ps1
-- Cick on the Dad to get a toast notification!
+- Click on the Dad to get a toast notification!
