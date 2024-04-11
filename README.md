@@ -1,6 +1,6 @@
 # Dad Jokes GUI
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Tachaeon/Dad_Jokes/main/Images/Dad.png" />
+  <img src="https://raw.githubusercontent.com/Tachaeon/Dad_Jokes/main/images/dad.png" />
 </p>
 
 A system tray, menu application written in powershell.
