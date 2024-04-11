@@ -3,7 +3,6 @@
   <img src="https://raw.githubusercontent.com/Tachaeon/Dad_Jokes/main/images/dad.png" />
 </p>
 
-A system tray, menu application written in powershell.
 
 ## How to use
 - PowerShell.exe -ExecutionPolicy Bypass -File .\dad_joke_gui.ps1
