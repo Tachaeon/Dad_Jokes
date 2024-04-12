@@ -1,5 +1,5 @@
-$DadJoke = Invoke-RestMethod -Uri https://icanhazdadjoke.com/ -Headers @{accept="text/plain"}
 $URI = ""
+$DadJoke = Invoke-RestMethod -Uri https://icanhazdadjoke.com/ -Headers @{accept="text/plain"}
 
 ## Start Teams Messages
 $Text = '
