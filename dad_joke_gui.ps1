@@ -19,10 +19,7 @@ $form.TopMost = $true
 $button1 = New-Object System.Windows.Forms.Button
 $button1.Size = New-Object System.Drawing.Size(125, 166)
 $button1.Location = New-Object System.Drawing.Point(83, 25)
-$IconBytes = [Convert]::FromBase64String($IconBase64)
-$Stream = [System.IO.MemoryStream]::new($IconBytes, 0, $IconBytes.Length)
-$button1_Picture = [System.Drawing.Icon]::FromHandle(([System.Drawing.Bitmap]::new($Stream).GetHIcon()))
-$button1.Image = $button1_Picture
+$button1.Image = $form.Icon
 $button1.add_Click({
     Dadjoke
   })
