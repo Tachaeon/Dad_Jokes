@@ -30,7 +30,7 @@ $label1.Text = "icanhazdadjoke.com"
 $label1.AutoSize = $true
 $label1.Location = New-Object System.Drawing.Point(92, 180)
 $label1.Add_Click({
-  Open-Url "https://icanhazdadjoke.com/"
+  Start-Process "https://icanhazdadjoke.com/"
 })
 $label1.Font = New-Object System.Drawing.Font("Microsoft Sans Serif", 8.25, [System.Drawing.FontStyle]::Underline)
 $label1.Cursor = [System.Windows.Forms.Cursors]::Hand
@@ -45,11 +45,6 @@ $button2.add_Click({
     $form.Dispose()
   })
 $form.Controls.Add($button2)
-
-function Open-Url {
-  param([string]$url)
-  Start-Process $url
-}
 
 function Dadjoke {
   $DadJoke = Invoke-RestMethod -Uri https://icanhazdadjoke.com/ -Headers @{accept="text/plain"}
