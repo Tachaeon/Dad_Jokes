@@ -1,6 +1,7 @@
 # Dad Jokes GUI
 <p align="center">
   <img src="https://raw.githubusercontent.com/Tachaeon/Dad_Jokes/main/images/dad.png" />
+  <br>Pulls dad jokes from https://icanhazdadjoke.com/ API.
 </p>
 
 
